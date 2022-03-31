@@ -67,6 +67,7 @@ export function JogoVelha() {
       <h1 className="title">Jogo da Velha</h1>
 
       <div className={`board ${winner ? "game-over" : ""}`}>
+        <section></section>
         {board.map((item, index) => (
           <div
             key={index}
