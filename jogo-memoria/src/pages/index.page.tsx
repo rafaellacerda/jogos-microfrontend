@@ -25,7 +25,7 @@ export function JogoMemoria() {
     setTimeout(() => {
       setItemsCorrect(() => []);
     }, 2000);
-  }, [, initialItems]);
+  }, []);
 
   const checkItems = (item) => {
     const { length } = itemsSelected;
