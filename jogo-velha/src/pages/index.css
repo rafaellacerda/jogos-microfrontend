@@ -26,8 +26,8 @@ main {
 
 .board {
   display: grid;
-  grid-template-columns: repeat(3, 240px);
-  grid-template-rows: repeat(3, 200px);
+  grid-template-columns: repeat(3, 170px);
+  grid-template-rows: repeat(3, 135px);
   gap: 0.3rem;
   margin-top: 30px;
   position: relative;
